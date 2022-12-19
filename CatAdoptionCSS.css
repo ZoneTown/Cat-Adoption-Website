@@ -1,0 +1,176 @@
+/* Makes the website not have a white border around it */
+*{
+    margin:0;
+}
+
+/* Correctly places the cat */
+#catimage{
+    position:absolute;
+    left:1000px;
+    top:175px;
+}
+
+/* Makes the navigation bar flow */
+#navbar{
+    display:flex;
+}
+
+/* Changes the size of the links and moves them to where they are supposed to go */
+#navigation{
+    position: relative;
+    top:16px;
+    left:495px;
+    font-size:large;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Moves the profile image next to the navbar links */
+#emptyprofileimage{
+    position:absolute;
+    left:1475px;
+    top:5px;
+}
+
+/* Creates the simple baby blue background */
+#background-border{
+    display:flex;
+    border: 5px solid #99ccff;
+    border-width: 40px;
+    background-color: #99ccff;
+}
+
+/* Makes the main text bigger */
+#title{
+    font-size:50px;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+}
+
+/* Moves the featured cats text to the correct area */
+#featuredcatstext{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    position:relative;
+    top:50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Moves the featured cat images to the correct area */
+#featuredcatsimage{
+    display:flex;
+    position: relative;
+    top:100px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+/* Moves the featured cats names to the correct area */
+#featuredcatsnames{
+    display:flex;
+    position:absolute;
+    top:720px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Creates a border around the cat name and moves it */
+#catname{
+    border: solid 5px #99ccff;
+    border-left-width: 122px;
+    border-right-width:105px;
+    border-top-width:10px;
+    border-bottom-width:10px;
+    background-color:#99ccff;
+    color:white;
+}
+
+/* Creates a border around the cat name and moves it */
+#catname2{
+    border: solid 5px #99ccff;
+    border-left-width: 134px;
+    border-right-width:111px;
+    border-top-width:10px;
+    border-bottom-width:10px;
+    background-color:#99ccff;
+    color:white;
+}
+
+/* Creates a border around the cat name and moves it */
+#catname3{
+    border: solid 5px #99ccff;
+    border-left-width: 134px;
+    border-right-width:110px;
+    border-top-width:10px;
+    border-bottom-width:10px;
+    background-color:#99ccff;
+    color:white;
+}
+
+/* Adds a border and background to the footer */
+footer{
+    border:5px solid #99ccff;
+    background-color: #99ccff;
+    font-family: 'Rubik', sans-serif;
+    color:white;
+}
+
+/* Colors and removes the underline of the links in the footer */
+.ahref{
+    color:white;
+    text-decoration:none;
+}
+
+/* Creates the grid in the footer */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: start;
+    align-items: start;
+    column-gap: 40px;
+    row-gap: 30px;
+}
+
+/* Moves the content in the grid in the footer */
+.content {
+    color: white;
+    font-weight: 600;
+    text-align: start;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+}
+
+/* Positions the Meta logo */
+#logo{
+    position: absolute;
+    left:1050px;
+    top:1180px;
+}
+
+/* Positons the Instragram logo */
+#logo2{
+    position: absolute;
+    left:1080px;
+    top:1180px;
+}
+
+/* Positions the Twitter logo */
+#logo3{
+    position: absolute;
+    left:1110px;
+    top:1180px;
+}
+
+/* Positions the Youtube logo */
+#logo4{
+    position: absolute;
+    left:1140px;
+    top:1180px;
+}
+
+/* Moves the newsletter in the footer at the bottom of the page*/
+#newsletter{
+    position:absolute;
+    left:1050px;
+    top:1090px;
+}
